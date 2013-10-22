@@ -3,7 +3,6 @@ var path = require('path');
 var publicDir = hexo.public_dir;
 var sourceDir = hexo.source_dir;
 var htmlTag = hexo.util.html_tag;
-var log = hexo.log;
 var route = hexo.route;
 
 hexo.extend.generator.register(function(locals, render, callback){
@@ -26,7 +25,6 @@ hexo.extend.generator.register(function(locals, render, callback){
         callback();
       });
     } else {
-      log.log(1);
       callback();
     }
   });

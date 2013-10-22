@@ -1,0 +1,26 @@
+{
+  "name": "hexo-local-image",
+  "version": "0.0.1",
+  "description": "hexo local image plugin",
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wsk3201/hexo-local-image.git"
+  },
+  "keywords": [
+    "Hexo",
+    "image"
+  ],
+  "author": "mercury wonder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wsk3201/hexo-local-image/issues"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "hexo-local-image",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "hexo local image plugin",
   "main": "index.js",
   "dependencies": {

@@ -1,8 +1,8 @@
 var fs = require('fs');
 var path = require('path');
+var util = require('hexo-util');
 var publicDir = hexo.public_dir;
 var sourceDir = hexo.source_dir;
-var htmlTag = hexo.util.html_tag;
 var route = hexo.route;
 
 var localImage = function(args,content){
@@ -15,7 +15,7 @@ var localImage = function(args,content){
   imgAttr.src   = hexo.config.root + 'images/' + imageName;
   imgAttr.class = classes.join(' ');
 
-  return htmlTag('img', imgAttr);
+  return util.htmlTag('img', imgAttr);
 };
 
 hexo.extend.tag.register('limg',localImage);
